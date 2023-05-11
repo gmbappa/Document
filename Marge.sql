@@ -1,4 +1,4 @@
-##CREATE TABLE employees (
+CREATE TABLE employees (
   id SERIAL PRIMARY KEY,
   first_name VARCHAR(50)  NULL,
   last_name VARCHAR(50)  NULL,
@@ -6,7 +6,7 @@
   salary NUMERIC(10, 2)  NULL
 );
 
-##--drop table employees;
+--drop table employees;
 
 CREATE TABLE employees_new (
   id SERIAL PRIMARY KEY,
@@ -17,8 +17,8 @@ CREATE TABLE employees_new (
 	job_title VARCHAR(100)  NULL
 );
 
-##truncate table employees;
-##truncate table employees_new;
+truncate table employees;
+truncate table employees_new;
 
 insert into employees values(1,'GM','BAPPA','gm@gmail.com',2000);
 insert into employees values(2,'Ratan','KK','ratan@gmail.com',3000);
